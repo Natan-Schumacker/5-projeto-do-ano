@@ -10,7 +10,7 @@ async function visualizarInformacoesGlobais() {
     const porcentagemConectada = ((pessoasConectadas/pessoasMundo)*100).toFixed(2)
     const paragrafo = document.createElement('p')
     paragrafo.classList.add('graficos-container__texto')
-    paragrafo.innerHTML = `Você sabia que o mundo tem <span> ${pessoasMundo} bilhões </span> de pessoas e que aproximadamente <span> ${pessoasConectadas} bilhões </span> estão conectadas em alguma rede social e passam em média <span> ${horas} horas </span> e <span>${minutos} minutos </span> conectadas?<br>Isso significa que <span>${porcentagemConectada} % </span> de pessoas estão conectadas em alguma rede social `
+    paragrafo.innerHTML = `Em cada um de seus longas animados, destacam-se o desenvolvimento da narrativa e a inovação visual, elementos que têm sido fundamentais para o crescimento de uma grande base de admiradores. Assim, as expectativas para a chegada de novos filmes crescem a cada dia.`
     const container = document.getElementById('graficos-container')
     container.appendChild(paragrafo)
 }
